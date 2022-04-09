@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<elt level="1">
+		<elt level="2">Lorem 
+			<elt level="3">ipsum 
+			<elt level="4">dolor 
+			</elt>
+			</elt>
+		</elt>
+		<elt level="2"> sit 
+			<elt level="3">amet</elt>
+		</elt>
+		<elt level="2">consectetur 
+		<elt level="3">
+				<elt level="4">adipiscing 	
+				</elt>elit</elt>
+		</elt>
+	</elt>
+	<elt level="1">
+		<elt level="2">Duis 
+			<elt level="3">quis </elt>
+		</elt>
+		<elt level="2"> erat at ligula
+			<elt level="3">
+				<elt level="4">ultrices
+			</elt>blandit.</elt>
+		</elt>
+		<elt level="2">Sed nisl erat, 
+			<elt level="3">posuere at malesuada et, </elt>
+		</elt>
+	</elt>
+	<elt level="1">
+		<elt level="2">
+			<elt level="4">vehicula vitae felis.
+			</elt>foo_2.1
+			<elt level="3">Etiam </elt>
+		</elt>
+		<elt level="2"> justo 
+			<elt level="3">nulla,</elt>
+		</elt>
+		<elt level="2">tempor nec fermentum
+			<elt level="3">
+				<elt level="4">at, malesuada et erat.
+			</elt>Nulla commodo enim sed augue accumsan eget molestie arcu rhoncus. Cras sem lectus, pharetra ac vulputate id, adipiscing eget lacus. Integer dapibus mi in nulla adipiscing vel venenatis lorem faucibus.</elt>
+		</elt>
+	</elt>
+</root>

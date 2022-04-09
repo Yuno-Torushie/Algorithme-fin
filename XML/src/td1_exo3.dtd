@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE cdtheque [ 
+	<!ELEMENT cdtheque (cd+) >
+	<!ATTLIST cdtheque date CDATA #REQUIRED>
+	<!ATTLIST cdtheque auteur CDATA #REQUIRED>
+	<!ELEMENT cd (titre,artiste,style?)>
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT style (#PCDATA)>
+	<!ELEMENT artiste (#PCDATA)>
+]>
+<cdtheque date="11/05/2165" auteur="jgvd">
+	<cd>
+		<titre>A</titre>
+		<artiste>B</artiste>
+		<style>C</style>
+	</cd>
+</cdtheque>

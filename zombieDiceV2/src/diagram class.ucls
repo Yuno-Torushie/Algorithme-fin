@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="application.Main" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/application/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="100" y="-250"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="controller.GameController" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/controller/GameController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="95"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="controller.MenuController" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/controller/MenuController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="136" y="113"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="controller.ScoreController" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/controller/ScoreController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="673" y="-159"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="zombieDiceGame.Dice" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Dice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1427" y="27"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="zombieDiceGame.Dice.symbole" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Dice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1685" y="44"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="7" language="java" name="zombieDiceGame.Difficulty" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Difficulty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1034" y="-186"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" language="java" name="zombieDiceGame.RedDice" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/RedDice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1614" y="-275"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="zombieDiceGame.Game" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1065" y="185"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="zombieDiceGame.Player" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="708" y="346"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="zombieDiceGame.Gobelet" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/Gobelet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1493" y="412"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="zombieDiceGame.GreenDice" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/GreenDice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1436" y="-278"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="zombieDiceGame.YellowDice" project="zombieDiceV2" 
+    file="/zombieDiceV2/src/zombieDiceGame/YellowDice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1256" y="-280"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="j1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="18">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="19" name="game">        
+        <position height="0" width="0" x="387" y="-691"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1">        
+        <position height="0" width="0" x="387" y="-691"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="22" name="d2">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="25">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="26" name="j2">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="28">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <association id="29">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="30" name="d1">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="33" name="j4">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="36">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="37" name="j2">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="38" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="40" name="j4">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="41" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="43" name="unusable_dices">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="46" name="des_empreintes">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="49" name="dices">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="52" name="j3">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="55" name="j2">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="56" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="58" name="j3">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="61" name="currentPlayer">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="62" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="64" name="j1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="65" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="67" name="tas">        
+        <position height="0" width="0" x="416" y="-159"/>      
+      </attribute>      
+      <multiplicity id="68" minimum="0" maximum="1">        
+        <position height="0" width="0" x="416" y="-159"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="70" name="j4">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="71" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="73" name="j3">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="74" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="76" name="j1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="79" name="top">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </attribute>      
+      <multiplicity id="80" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="9" y="-172"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="82" name="d3">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </attribute>      
+      <multiplicity id="83" minimum="0" maximum="1">        
+        <position height="0" width="0" x="346" y="-824"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="false">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films [ 
+	<!ELEMENT films (film)+> 
+	<!ELEMENT film (titre, annee, duree, nationalité, réalisateur, genre, acteurs?)> 
+	<!ELEMENT acteurs (acteur)+>
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT annee (#PCDATA)>
+	<!ELEMENT duree (#PCDATA)>
+	<!ELEMENT nationalité (#PCDATA)>
+	<!ELEMENT réalisateur (#PCDATA)>
+	<!ELEMENT genre (#PCDATA)>
+	<!ELEMENT acteur (#PCDATA)>
+	<!ATTLIST acteur role (principal|secondaire) #REQUIRED>
+	<!ATTLIST titre langue CDATA #IMPLIED> 
+]>
+<films>
+	<film>	
+		<titre>blabla</titre>
+		<annee>2021</annee>
+		<duree>351</duree>
+		<nationalité>Français</nationalité>
+		<réalisateur>blablou</réalisateur>
+		<genre>post-cast</genre>
+		<acteurs>
+			<acteur role="principal"> Wiliam</acteur>
+		</acteurs>
+	</film>
+</films>

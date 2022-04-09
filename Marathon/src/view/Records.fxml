@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../ressources/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ControllerRecords">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="105.0" prefWidth="600.0">
+               <children>
+                  <Label layoutX="182.0" layoutY="14.0" prefHeight="93.0" prefWidth="236.0" stylesheets="@../ressources/style.css" text="Le Marathon" textAlignment="CENTER" textFill="#ff9f1c" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="182.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="Liberation Mono" size="34.0" />
+                     </font>
+                  </Label>
+                  <Line endX="492.0" endY="81.0" fill="WHITE" layoutX="30.0" layoutY="1.0" startX="40.0" startY="81.0" stroke="WHITE" strokeWidth="3.0" AnchorPane.bottomAnchor="22.5" AnchorPane.leftAnchor="69.5" AnchorPane.rightAnchor="77.5" AnchorPane.topAnchor="81.5">
+                     <effect>
+                        <Bloom threshold="0.82" />
+                     </effect>
+                  </Line>
+               </children>
+            </AnchorPane>
+            <ListView fx:id="listViewScore" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" prefHeight="49.0" prefWidth="600.0" VBox.vgrow="SOMETIMES">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onNextClick" text="Retour">
+                     <effect>
+                        <Bloom />
+                     </effect></Button>
+               </children>
+            </FlowPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

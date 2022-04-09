@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE document [
+	<!ELEMENT document ((title | publisher)*, name?)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT publisher (name)>
+	<!ELEMENT name (#PCDATA)>
+]>
+<document>
+	<title> BD </title>
+	<publisher>
+		<name> Alfred Pub</name>
+	</publisher>
+</document>

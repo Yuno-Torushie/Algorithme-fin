@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="" project="Dungeon" file="/Dungeon/src" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="216" width="252" x="1293" y="604"/>    
+    <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="Launcher" project="Dungeon" file="/Dungeon/src/Launcher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1483" y="651"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="GameRPG" project="Dungeon" file="/Dungeon/src/GameRPG.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1370" y="791"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="model" project="Dungeon" file="/Dungeon/src/model" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="803" width="1014" x="229" y="14"/>    
+    <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="model.DungeonBuildException" project="Dungeon" 
+    file="/Dungeon/src/model/DungeonBuildException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="458"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.Foe" project="Dungeon" file="/Dungeon/src/model/Foe.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1130" y="351"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.SafeKey" project="Dungeon" file="/Dungeon/src/model/SafeKey.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="615" y="276"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="model.Door" project="Dungeon" file="/Dungeon/src/model/Door.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="369" y="178"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.RoomElement" project="Dungeon" file="/Dungeon/src/model/RoomElement.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="873" y="387"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="model.Dungeon" project="Dungeon" file="/Dungeon/src/model/Dungeon.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="757" y="83"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="model.Room" project="Dungeon" file="/Dungeon/src/model/Room.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="344" y="554"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="model.Princess" project="Dungeon" file="/Dungeon/src/model/Princess.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1156" y="170"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="model.Safe" project="Dungeon" file="/Dungeon/src/model/Safe.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1138" y="478"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="model.Player" project="Dungeon" file="/Dungeon/src/model/Player.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="746" y="723"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="model.Equipment" project="Dungeon" file="/Dungeon/src/model/Equipment.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="747" y="255"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="model.Weapon" project="Dungeon" file="/Dungeon/src/model/Weapon.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="510" y="217"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="util" project="Dungeon" file="/Dungeon/src/util" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="218" width="213" x="4" y="599"/>    
+    <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="18" language="java" name="util.Interaction" project="Dungeon" file="/Dungeon/src/util/Interaction.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="55" y="784"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="util.Console" project="Dungeon" file="/Dungeon/src/util/Console.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="53" y="664"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="20">    
+    <bendpoint x="272" y="663"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="thePlayer"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="24">    
+    <bendpoint x="276" y="716"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="29" name="Yuno"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <bendpoint x="238" y="103"/>    
+    <bendpoint x="245" y="458"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="32" name="rooms"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <bendpoint x="1400" y="81"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="35" name="theDungeon"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="38" name="southDoor">        
+        <position height="20" width="67" x="326" y="269"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="1">        
+        <position height="18" width="27" x="393" y="270"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="42">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="43" name="elementInRoom">        
+        <position height="20" width="98" x="751" y="426"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="18" width="27" x="800" y="413"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="50" name="room2"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="58">    
+    <bendpoint x="565" y="587"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="59" name="previousLocation">        
+        <position height="20" width="104" x="363" y="602"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="1">        
+        <position height="18" width="27" x="386" y="586"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="63">    
+    <bendpoint x="253" y="132"/>    
+    <bendpoint x="258" y="453"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="64" name="startingRoom"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="67" name="loot">        
+        <position height="20" width="29" x="765" y="310"/>      
+      </attribute>      
+      <multiplicity id="68" minimum="0" maximum="1">        
+        <position height="18" width="27" x="782" y="275"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="70" name="currentLocation">        
+        <position height="20" width="97" x="398" y="536"/>      
+      </attribute>      
+      <multiplicity id="71" minimum="0" maximum="1">        
+        <position height="18" width="27" x="447" y="552"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="72">    
+    <bendpoint x="273" y="764"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="76">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="78">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="79" name="equipment">        
+        <position height="20" width="68" x="600" y="390"/>      
+      </attribute>      
+      <multiplicity id="80" minimum="0" maximum="2147483647">        
+        <position height="18" width="25" x="722" y="280"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="82" name="westDoor">        
+        <position height="20" width="62" x="295" y="235"/>      
+      </attribute>      
+      <multiplicity id="83" minimum="0" maximum="1">        
+        <position height="18" width="27" x="357" y="236"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="88">    
+    <bendpoint x="348" y="739"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="89">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="90" name="room1"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="94">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="95">    
+    <bendpoint x="1426" y="43"/>    
+    <bendpoint x="366" y="52"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="96">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="97" name="northDoor">        
+        <position height="20" width="64" x="302" y="252"/>      
+      </attribute>      
+      <multiplicity id="98" minimum="0" maximum="1">        
+        <position height="18" width="27" x="365" y="250"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="100" name="eastDoor">        
+        <position height="20" width="60" x="274" y="218"/>      
+      </attribute>      
+      <multiplicity id="101" minimum="0" maximum="1">        
+        <position height="18" width="27" x="335" y="220"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

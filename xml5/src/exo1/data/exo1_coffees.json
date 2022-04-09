@@ -1,0 +1,17 @@
+[
+  {
+    "id": "001",
+    "name": "Robusta",
+    "price": 3.15
+  },
+  {
+    "id": "002",
+    "name": "Noir Désir",
+    "price": 2.21
+  },
+  {
+    "id": "003",
+    "name": "Java",
+    "price": 5.15
+  }
+]

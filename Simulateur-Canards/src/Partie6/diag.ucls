@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Partie6.Colvert" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/Colvert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="557" y="62"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="Partie6.Observateur" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/Observateur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="514" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="Partie6.CouacObservable" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/CouacObservable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="552" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="Partie6.Observable" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/Observable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="838" y="224"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Partie6.SimulateurDeCanards" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/SimulateurDeCanards.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="194" y="-60"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Partie6.CompteurDeCouacs" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/CompteurDeCouacs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="982" y="565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Partie6.Cancanologue" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/Cancanologue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="216" y="300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="Partie6.Cancaneur" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie6/Cancaneur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1102" y="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="observateurs">        
+        <position height="0" width="0" x="-167" y="-560"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-167" y="-560"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="14">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="15" name="canard">        
+        <position height="0" width="0" x="-594" y="-106"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-594" y="-106"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="18" name="canards">        
+        <position height="0" width="0" x="-255" y="-587"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-255" y="-587"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="23">    
+    <bendpoint x="1004" y="82"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="26">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="27" name="observable">        
+        <position height="0" width="0" x="-308" y="-296"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-308" y="-296"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="30">    
+    <bendpoint x="1091" y="-83"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

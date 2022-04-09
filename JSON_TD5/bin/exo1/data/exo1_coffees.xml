@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<coffees>
+	<coffee id="001">
+		<name>Robusta</name>
+		<price>3.15</price>
+	</coffee>
+	<coffee id="002">
+		<name>Noir Désir</name>
+		<price>2.21</price>
+	</coffee>
+	<coffee id="003">
+		<name>Java</name>
+		<price>5.15</price>
+	</coffee>
+</coffees>

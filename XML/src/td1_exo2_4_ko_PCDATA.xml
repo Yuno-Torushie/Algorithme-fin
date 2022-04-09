@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"  standalone="yes" ?> 
+<!DOCTYPE document [ 
+	<!ELEMENT document (#PCDATA | title | publisher)*> 
+	<!ELEMENT title (#PCDATA)> 
+	<!ELEMENT publisher (#PCDATA)>
+]> 
+<document> 
+	<title> LI345 </title>
+		<title>The Publishers</title> 
+		<publisher>Alfred Pub</publisher> 
+   Publishers are noted in report by name. 
+</document>

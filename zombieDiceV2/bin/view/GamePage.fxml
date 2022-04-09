@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+   <children>
+         <ImageView fitHeight="500.0" fitWidth="800.0">
+         <image>
+            <Image url="file:/D:/Documents/Cours/DUT%20info/algo/algorithme/zombieDiceV2/src/ZombieDicePic/Background_Game.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="scores" ellipsisString="" layoutX="606.0" layoutY="391.0" mnemonicParsing="false" onAction="#gotoStats" style="-fx-background-color: #ffffff;" text="Passer aux scores" textAlignment="CENTER" textFill="#9c0909" underline="true" wrapText="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font></Button>
+      <Label fx:id="firstlabel" layoutX="14.0" layoutY="46.0" style="-fx-background-color: #ffffff;" text="J2" />
+      <Label fx:id="secondlabel" layoutX="14.0" layoutY="76.0" style="-fx-background-color: #ffffff;" text="J3" visible="false" />
+      <Label fx:id="thirdlabel" layoutX="14.0" layoutY="105.0" style="-fx-background-color: #ffffff;" text="J4" visible="false" />
+      <TextField fx:id="first" disable="true" editable="false" layoutX="70.0" layoutY="42.0" prefHeight="25.0" prefWidth="60.0" style="-fx-opacity: 1;" />
+      <TextField fx:id="second" disable="true" editable="false" layoutX="70.0" layoutY="72.0" prefHeight="25.0" prefWidth="60.0" style="-fx-opacity: 1;" visible="false" />
+      <TextField fx:id="third" disable="true" editable="false" layoutX="70.0" layoutY="101.0" prefHeight="25.0" prefWidth="60.0" style="-fx-opacity: 1;" visible="false" />
+      <Label fx:id="currentText" alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="367.0" prefHeight="80.0" prefWidth="124.0" text="J1" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="play" ellipsisString="" layoutX="155.0" layoutY="386.0" mnemonicParsing="false" onAction="#playturn" prefHeight="43.0" prefWidth="88.0" style="-fx-background-color: #ffffff;" text="Lancer" textAlignment="CENTER" textFill="#9c0909" textOverrun="CLIP" underline="true" wrapText="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font></Button>
+      <Button fx:id="pass" layoutX="254.0" layoutY="386.0" mnemonicParsing="false" onAction="#passerTour" prefHeight="43.0" prefWidth="88.0" style="-fx-background-color: #ffffff;" text="Passer" textFill="#9c0909" underline="true" wrapText="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font></Button>
+      <Canvas fx:id="canvas" height="100.0" layoutX="154.0" layoutY="269.0" width="470.0" />
+      <TextField fx:id="current" disable="true" editable="false" layoutX="48.0" layoutY="320.0" prefHeight="43.0" prefWidth="74.0" style="-fx-opacity: 1;" />
+      <ImageView fx:id="first_pump" fitHeight="43.0" fitWidth="45.0" layoutX="668.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="second_pump" fitHeight="43.0" fitWidth="45.0" layoutX="668.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="third_pump" fitHeight="43.0" fitWidth="45.0" layoutX="668.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="43.0" fitWidth="32.0" layoutX="616.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Documents/Cours/DUT%20info/algo/algorithme/zombieDiceV2/src/ZombieDicePic/cerveau.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="currentbrains" disable="true" editable="false" layoutX="654.0" layoutY="34.0" prefHeight="43.0" prefWidth="74.0" style="-fx-opacity: 1;" />
+      <Label fx:id="greenDice" layoutX="271.0" layoutY="135.0" style="-fx-background-color: #ffffff;" text="12" textFill="#03eb0f">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="yellowDice" layoutX="336.0" layoutY="135.0" style="-fx-background-color: #ffffff;" text="12" textFill="#e8eb05">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="redDice" layoutX="403.0" layoutY="135.0" style="-fx-background-color: #ffffff;" text="12" textFill="#eb0707">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="alerte" layoutX="292.0" layoutY="41.0" prefHeight="72.0" prefWidth="168.0" style="-fx-background-color: #ffffff; -fx-opacity: 1;" text="Votre tour s'est terminé car :" textAlignment="CENTER" textFill="#9c0909" underline="true" wrapText="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

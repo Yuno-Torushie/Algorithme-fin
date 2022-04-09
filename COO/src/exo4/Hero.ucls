@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="exo4.Humain" project="COO" file="/COO/src/exo4/Humain.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="785" y="173"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="exo4.JeuDeCombat" project="COO" file="/COO/src/exo4/JeuDeCombat.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="358" y="173"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="exo4.EtreSuperNaturel" project="COO" file="/COO/src/exo4/Pouvoir.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1367" y="429"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="exo4.SuperHero" project="COO" file="/COO/src/exo4/SuperHero.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="951" y="432"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="exo4.Pouvoir" project="COO" file="/COO/src/exo4/Pouvoir.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="235" y="596"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="6">    
+    <bendpoint x="420" y="415"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="7" name="pouvoirFreez">        
+        <position height="20" width="85" x="288" y="402"/>      
+      </attribute>      
+      <multiplicity id="8" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="9">    
+    <bendpoint x="191" y="398"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="10" name="pouvoirHypnose">        
+        <position height="20" width="103" x="143" y="390"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="625" y="307"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="13" name="jean"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="pouvoirs"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="19">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="20" name="martin"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <bendpoint x="330" y="419"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="23" name="pouvoirPoing">        
+        <position height="20" width="85" x="384" y="383"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <bendpoint x="562" y="393"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="26" name="tatiana"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="28">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="29">    
+    <bendpoint x="46" y="409"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="30" name="pouvoirFeu">        
+        <position height="20" width="74" x="23" y="402"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

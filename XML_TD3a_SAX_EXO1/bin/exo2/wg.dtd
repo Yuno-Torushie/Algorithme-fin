@@ -1,0 +1,12 @@
+<!ELEMENT gdt  (expose*)>
+<!ATTLIST gdt 
+	  month CDATA #REQUIRED 
+	  year CDATA #REQUIRED>
+<!ELEMENT expose  (comment?, (speaker, title, time, salle)?)>
+<!ATTLIST expose day CDATA #REQUIRED>
+<!ELEMENT comment      (#PCDATA)>
+<!ELEMENT speaker       (#PCDATA)>
+<!ELEMENT title       (#PCDATA)>
+<!ELEMENT time       (#PCDATA)>
+<!ELEMENT salle       (#PCDATA)>
+<!ENTITY nbsp "&#160;">

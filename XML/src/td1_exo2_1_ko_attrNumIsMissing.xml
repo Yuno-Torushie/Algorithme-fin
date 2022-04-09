@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE document [
+	<!ELEMENT document (title?)>
+	<!ELEMENT title (#PCDATA)>
+	<!ATTLIST title
+			num CDATA #REQUIRED
+			info CDATA #IMPLIED
+	>
+]>
+<document>
+	<title num="01"> Bases de données et sites Web </title>
+</document>

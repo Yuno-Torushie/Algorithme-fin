@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<!DOCTYPE document [
+<!ELEMENT document (#PCDATA | title | publisher)*> 
+    <!ELEMENT title (#PCDATA)> 
+    <!ELEMENT publisher (name)> 
+    <!ELEMENT name (#PCDATA)>
+]> 
+<document> 
+    <title> BD et sites Web </title> 
+    <publisher> 
+        <name>Alfred Pub</name> 
+    </publisher> 
+    Publishers are noted in report by name 
+</document>

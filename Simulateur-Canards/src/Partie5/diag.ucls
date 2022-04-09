@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="Partie5.Cancaneur" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/Cancaneur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="702" y="672"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="Partie5.FabriqueDeCanards" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/FabriqueDeCanards.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="301" y="612"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Partie5.Appelant" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/Appelant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="516" y="282"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Partie5.FabriqueDeCanardsAbstraite" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/FabriqueDeCanardsAbstraite.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="300" y="172"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Partie5.SimulateurDeCanards" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/SimulateurDeCanards.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="932" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Partie5.Troupe" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/Troupe.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="977" y="641"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Partie5.Mandarin" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/Mandarin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="647" y="376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Partie5.Colvert" project="Simulateur-Canards" 
+    file="/Simulateur-Canards/src/Partie5/Colvert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="771" y="458"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="lesCancaneurs">        
+        <position height="0" width="0" x="41" y="-391"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="41" y="-391"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="16">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="20">    
+    <bendpoint x="457" y="222"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="22">    
+    <bendpoint x="885" y="542"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <realization id="26">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
